@@ -1,0 +1,52 @@
+/* 添加背景图片 */
+body,
+.S_page,
+.WB_miniblog,
+.WB_frame {
+    background-image: url(https://images.unsplash.com/photo-1446426156356-92b664d86b77?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=92e96949ac731e7cbcac943aa5934554) !important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* 透明效果 */
+.WB_frame #plc_main {、
+    background: rgba(255, 255, 255, .7) !important;
+}
+/* 图片阴影 */
+.WB_feed_v3 .WB_media_a_m1 .WB_pic {
+    border-radius: 5px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+}
+.S_line2 {
+    border-color: rgba(0, 0, 0, .0) !important;
+}
+.S_bg1, blockquote, .SW_fun_bg:hover, .SW_fun_bg_active {
+    border: none;
+}
+.S_line2 {
+    border-color: rgba(0, 0, 0, .0);
+}
+/* 头像添加旋转动画 */
+#v6_pl_rightmod_myinfo .headpic {
+    animation: rotate 8s linear infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* 小头像 */
+.face {
+    animation: rotate1 8s linear infinite;
+}
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}

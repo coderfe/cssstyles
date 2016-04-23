@@ -1,0 +1,189 @@
+/* 添加背景图片 */
+
+.background-container {
+    background-image: url(https://images.unsplash.com/photo-1433888104365-77d8043c9615?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5fe666b510bf40a746a0180fe39599d8);
+    background-size: contain;
+}
+
+.bg-body {
+    background-image: url(https://images.unsplash.com/photo-1433888104365-77d8043c9615?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5fe666b510bf40a746a0180fe39599d8);
+    background-repeat: repeat;
+}
+
+.layout-nav {
+    background-image: none;
+    background-image: none;
+    border: none;
+}
+
+
+/* 左栏隐藏 */
+
+.mod-side-nav-recently-used {
+    display: none !important;
+}
+
+#tab_menu_list li:nth-child(5) {
+    display: none;
+}
+
+#tab_switch {
+    display: none;
+}
+
+
+/* 今日访问人数 */
+
+#visitorsDiv {
+    display: none;
+}
+
+
+/* 头像 */
+
+.layout-nav .head-avatar {
+    border: none;
+}
+
+.layout-nav .head-avatar .user-avatar {
+    border-radius: 50% !important;
+    overflow: hidden;
+}
+
+
+/* 头像 */
+
+.layout-nav .head-avatar {
+    position: absolute;
+    bottom: 93px;
+    left: 50%;
+    margin-left: -70px;
+}
+
+.head-detail {
+    display: none;
+}
+
+.head-info {
+    display: none;
+}
+
+
+/* 头像动画 */
+
+.head-avatar {
+    animation: rotate 8s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* 小头像动画 */
+
+.f-user-pto {
+    border-radius: 50% !important;
+    overflow: hidden;
+    animation: rotate1 8s linear infinite;
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+
+/* 点赞墙 */
+
+#like_button_pannel {
+    display: none;
+}
+
+
+/* 大家都在看 */
+
+.col-main-sidebar {
+    display: none;
+}
+
+
+/* 升级，点亮收集QQ空间图标 */
+
+#qz-head-level {
+    display: none;
+}
+
+.qz-app-flag,
+.wing-fly {
+    display: none !important;
+}
+
+
+/* 间距 */
+
+.feed .f-single {
+    margin-bottom: 0;
+}
+
+.col-main-feed {
+    width: 100% !important;
+}
+
+.layout-page .col-main .col-main-feed {
+    padding-left: 0;
+}
+
+.col-main-feed .qz-poster {
+    margin-bottom: 0;
+}
+
+
+/* 左边栏 */
+
+.layout-page .col-menu {
+    position: fixed;
+    left: -124px;
+    top: 341px;
+    transition: left .3s linear;
+}
+
+.layout-page:hover .col-menu:hover {
+    left: 0;
+}
+
+.layout-page .col-main {
+    float: right;
+    width: 980px;
+}
+
+
+/* 当前热点 */
+
+#site_hot_btn {
+    display: none !important;
+}
+
+#customMenu {
+    display: none;
+}
+
+.layout-body {
+    padding-top: 0;
+}
+
+
+/* 弹窗 */
+
+#qz_notification {
+    display: none;
+}
