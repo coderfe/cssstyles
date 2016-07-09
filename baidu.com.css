@@ -1,0 +1,20 @@
+/* 移除首页导航条和二维码 */
+
+#u1 {
+    display: none;
+}
+
+#ftCon {
+    display: none;
+}
+
+.bdbri.bdbriimg {
+    display: none;
+}
+
+
+/* 移除搜索结果右侧的广告 */
+
+#content_right {
+    display: none;
+}
