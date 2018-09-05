@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #eee;
+}
+
+img {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.header-container {
+  display: none;
+}
+
+#TopBar {
+  display: none;
+}
+
+#MainFlow {
+  margin: 24px auto 0 auto;
+  width: 50%;
+}
+
+#LeftBar {
+  position: fixed;
+  top: 0;
+  font-size: 12px;
+  width: 30em;
+}
+
+#BreadCrumbs,
+#MainFlow > div:nth-child(3) {
+  display: none;
+}
+
+#MainFlow > div:nth-child(7) > a:nth-child(3):hover,
+#MainFlow > div:nth-child(7) > a:nth-child(1):hover {
+  text-decoration: none;
+  background-color: #3a87cf;
+  color: #fff;
+}
+
+#MainFlow > div:nth-child(7) > a:nth-child(3),
+#MainFlow > div:nth-child(7) > a:nth-child(1) {
+  display: inline-block;
+  border: 1px solid #3a87cf;
+  padding: 0 10px;
+  border-radius: 3px;
+  color: #3a87cf;
+  transition: all .3s ease;
+}
+
+.FigureCaption {
+  color: #aaa;
+  font-style: italic;
+}
+
+#Footer {
+  display: none;
+}
+
+.clearfloat {
+  display: none;
+}
+
+#footer-cn {
+  display: none;
+}
